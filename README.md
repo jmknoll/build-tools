@@ -43,4 +43,5 @@ TODO:
 add dev task and build task
 concatentate and minify vendor js and css for build
 move wiredep to bower post-install hook
-add dev css and js to index.html
+add custom css and js to index.html
+get rid of connect/livereload and use browsersync instead
