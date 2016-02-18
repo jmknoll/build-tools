@@ -1,0 +1,40 @@
+{
+  "name": "build-process",
+  "authors": [
+    "Jameson Knoll <j.knoll621@gmail.com>"
+  ],
+  "description": "improve your front end workflow with gulp, sass, bower, wiredep, and livereload",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "seed",
+    "template",
+    "gulp",
+    "sass",
+    "livereload",
+    "frontend"
+  ],
+  "license": "MIT",
+  "homepage": "www.jamesonknoll.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6"
+  },
+  "overrides": {
+    "bootstrap" : {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
